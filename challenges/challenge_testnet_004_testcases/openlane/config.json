@@ -1,0 +1,23 @@
+{
+  "DESIGN_NAME": "adder_ff",
+  "BASE_SDC_FILE": "dir::constraints.sdc",
+  "CLOCK_PORT": "clk",
+  "CLOCK_NET": "ref::$CLOCK_PORT",
+  "CLOCK_PERIOD": 1.0,
+
+  "FLOW_STEPS": ["synthesis", "sta"],
+  "CONFIGS": "general.tcl checkers.tcl synthesis.tcl sta.tcl",
+
+  "SYNTH_STRATEGY": "DELAY 3",
+  "SYNTH_BUFFERING": true,
+  "SYNTH_SHARE_RESOURCES": 1,
+
+  "RUN_FLOORPLAN": false,
+  "RUN_PLACEMENT": false,
+  "RUN_CTS": false,
+  "RUN_ROUTING": false,
+  "RUN_MAGIC_DRC": false,
+  "RUN_KLAYOUT": false,
+  "RUN_KLAYOUT_XOR": false,
+  "RUN_LVS": false
+}
