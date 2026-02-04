@@ -1,0 +1,32 @@
+{
+  "title": "A Simple Adder design",
+  "description": "Design and Implement a simple 2 bit adder.",
+  "difficulty": "beginner",
+  "estimated_time_hours": 4,
+  "evaluation_metrics": {
+    "functionality": 1.0,
+    "area": 0.0,
+    "delay": 0.0,
+    "power": 0.0
+  },
+  "scoring_details": {
+    "functionality_description": "The design must correctly execute all validator-side functional tests, covering diverse instruction sequences. Evaluation will monitor pc_o, reg_write_o, reg_waddr_o, and reg_wdata_o outputs to ensure that register file updates match the golden reference model.",
+    "area_baseline_gates": "To be introduced in future challenges",
+    "delay_target_ns": "To be introduced in future challenges",
+    "power_budget_mw": "To be introduced in future challenges"
+  },
+  "submission_requirements": {
+    "file_format": "systemverilog/verilog",
+    "top_module_name": "minirisc_top",
+    "filelist_name": "rtl.f",
+    "max_file_size_kb": 1024,
+    "coding_style": "synthesizable_verilog_2005"
+  },
+  "challenge_files": [
+    "MiniRISC_Assignment_Full_Final_UpdatedOpcodes.pdf"
+  ],
+  "bonus_objectives": [],
+  "created_by": "ChipForge-SN84",
+  "created_date": "2025-09-05",
+  "version": "1.0"
+}
